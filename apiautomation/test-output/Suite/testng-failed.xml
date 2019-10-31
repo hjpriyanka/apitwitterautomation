@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="API.Trends">
+        <methods>
+          <include name="begintrends"/>
+          <include name="tweetupdate"/>
+        </methods>
+      </class> <!-- API.Trends -->
+      <class name="API.listofusers">
+        <methods>
+          <include name="begin"/>
+          <include name="listusers"/>
+        </methods>
+      </class> <!-- API.listofusers -->
+      <class name="API.Searchtweet">
+        <methods>
+          <include name="searchtweet"/>
+          <include name="searchbegin"/>
+        </methods>
+      </class> <!-- API.Searchtweet -->
+      <class name="API.blockuSER">
+        <methods>
+          <include name="Blockuser"/>
+        </methods>
+      </class> <!-- API.blockuSER -->
+      <class name="API.postapis">
+        <methods>
+          <include name="postTweet"/>
+          <include name="beginpost"/>
+        </methods>
+      </class> <!-- API.postapis -->
+      <class name="API.weather">
+        <methods>
+          <include name="beginweather"/>
+          <include name="WeatherRequest"/>
+        </methods>
+      </class> <!-- API.weather -->
+      <class name="API.TWeet">
+        <methods>
+          <include name="creatapis"/>
+          <include name="begintweet"/>
+        </methods>
+      </class> <!-- API.TWeet -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
